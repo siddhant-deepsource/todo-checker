@@ -1,4 +1,4 @@
 build:
 	cp -r ../../. /app
-	# Add custom build steps
+	WORKDIR /app
 	go build .
