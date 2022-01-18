@@ -1,0 +1,5 @@
+name = "TODO comments checker"
+description = "Finds the TODO comments in codebase."
+analysis_command = "/app/macros-go"
+category = "language"
+visibility = "public"
