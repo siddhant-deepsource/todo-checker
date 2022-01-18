@@ -1,5 +1,5 @@
 build:
-	apk add --no-cache go
+	apk add --no-cache go openssh
 	export GOROOT=/usr/lib/go
 	export GOPATH=/go
 	export PATH=/go/bin:${PATH}
