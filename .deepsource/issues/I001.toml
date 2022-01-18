@@ -1,7 +1,8 @@
-title = "Sample issue title"
-category = "antipattern"
-severity = "major"
+title = "Found a TODO comment"
+category = "doc"
+severity = "minor"
 description = """
-Sample issue description.
+Here's a TODO comment you might wanna check.
 """
+weight = 50
 recommended = true
