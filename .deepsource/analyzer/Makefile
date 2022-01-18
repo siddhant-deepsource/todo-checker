@@ -5,6 +5,4 @@ build:
 	export PATH=/go/bin:${PATH}
 	mkdir -p ${GOPATH}/src ${GOPATH}/bin
 	cp -r ../../. /app
-	cd /app
-	ls
-	go build .
+	cd /app && go build .
