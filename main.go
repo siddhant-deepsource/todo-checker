@@ -19,7 +19,7 @@ func main() {
 	if err != nil {
 		log.Fatalln("Failed to read files to analyze.Exiting...")
 	}
-	
+
 	for _, path := range analysisFiles {
 		content, err := ioutil.ReadFile(path)
 		if err != nil {
