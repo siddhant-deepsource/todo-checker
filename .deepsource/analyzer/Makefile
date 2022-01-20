@@ -7,4 +7,4 @@ build:
 	cp -r ../../. /app
 	git config --global url.git@github.com:.insteadOf https://github.com/
 	go env -w GOPRIVATE=github.com/siddhant-deepsource/*
-	cd /app && CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build . -o /app/macro-go
+	cd /app && CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -o /app/macro-go .
